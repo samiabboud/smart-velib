@@ -6,7 +6,7 @@ import pandas as pd
 db_path = '/media/ssd/open_data/'
 
 hour_df = None
-stop_max = 10
+stop_max = 1
 iter_n = 0
 for filename in os.listdir(db_path):
     iter_n += 1
